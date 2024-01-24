@@ -17,6 +17,7 @@ body {
     url(image/bg1.jpg);
   color: #fff;
   background-size: cover; /*Image will perfectly fit with browser*/
+  background-position: center;
 }
 
 .counter {
@@ -24,6 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
+  gap: 10px;
 }
 p {
   font-size: 15px;
@@ -33,5 +35,50 @@ p {
   font-family: "Inspiration", cursive;
   font-size: 50px;
   font-weight: 400;
-  margin-top: 30px;
+  margin-top: 10px;
 }
+
+.box{
+    width:50px;
+    height:50px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 20px;
+}
+
+.box small{
+    font-size: 10px;
+}
+
+@media (min-width:576px){
+.newyear{
+    font-size: 100px;
+}
+p {
+    font-size: 18px;
+  }
+
+.box h2{
+    font-size: 25px;
+}
+}
+
+@media (min-width:768px){
+    .newyear{
+        font-size: 150px;
+    }
+
+    p {
+        font-size: 25px;
+      }
+
+    .box h2{
+        font-size: 30px;
+    }
+
+
+}
+
+
