@@ -53,4 +53,4 @@ updateTime()
 */
 
 //We can use setInterval function to avoid refresh all the Time for show the time .
-setInterval(updateTime,1000) // 1000ms kku orukka which means 1s kku orukka auto refresh aakum
+setInterval(updateTime,1000) // 1000ms kku orukka which means 1s kku orukka automatic aa refresh aakum.
